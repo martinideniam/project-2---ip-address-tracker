@@ -33,8 +33,8 @@ Mobile view
 
 ### Links
 
-- [Solution URL here](https://your-solution-url.com)
-- [Live site URL here](https://your-live-site-url.com)
+- [My solution URL](https://github.com/martinideniam/project-2-ip-address-tracker)
+- [My live site URL](https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html)
 
 ## My process
 
