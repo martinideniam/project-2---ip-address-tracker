@@ -11,4 +11,140 @@ html {
 
 body {
   font-size: 1.8rem;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  background: #fff;
+  border: none;
+}
+
+.leaflet-top {
+  display: none;
+}
+
+header {
+  background: url("../img/pattern-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container {
+  position: relative;
+  min-height: 30vh;
+  margin: 0 2rem;
+  flex-basis: 1000px;
+  width: 90%;
+  z-index: 5000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .title {
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+header .search {
+  margin-top: 2rem;
+  margin-bottom: 15rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+header .search__input {
+  padding: 1.5rem 1.7rem;
+  font-size: 1.5rem;
+  border-radius: 0;
+  border: none;
+}
+header .search__input:focus {
+  outline: none;
+}
+header .search__submit {
+  background: #000;
+  z-index: 5003;
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
+}
+header .search__submit:hover {
+  background: hsl(0deg, 0%, 17%);
+}
+header .info {
+  width: 100%;
+  border-radius: 1.5rem;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  padding: 3rem 2rem;
+  background: #fff;
+  color: #000;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.115);
+  text-align: center;
+}
+header .info__title {
+  color: hsl(0deg, 0%, 59%);
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+header .info__data {
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+header .info__data--isp {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+  header .search {
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 800px) {
+  header .container {
+    min-height: 20vh;
+  }
+  header .search {
+    margin-bottom: 10rem;
+  }
+  header .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  header .info__container {
+    border-left: 0.5px solid hsl(0deg, 0%, 59%);
+    padding-left: 2rem;
+    margin: 1rem;
+    word-wrap: break-word;
+  }
+  header .info__container--ip {
+    padding-left: 0rem;
+    border: none;
+  }
+  header .info__data {
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+}
+#map {
+  min-height: 70vh;
+  width: 100vw;
+}
+
+@media screen and (min-width: 800px) {
+  #map {
+    min-height: 80vh;
+    width: 100vw;
+  }
 }/*# sourceMappingURL=main.css.map */

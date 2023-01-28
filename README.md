@@ -9,7 +9,6 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
@@ -27,9 +26,10 @@ Users should be able to:
 ### Screenshot
 
 Desktop view
-![](./dist/img/)
+![](./dist/img/design/desktop.png)
 
 Mobile view
+![](./dist/img/design/mobile.png)
 
 ### Links
 
@@ -47,7 +47,10 @@ Mobile view
 - Mobile-first workflow
 - BEM
 - SCSS
+- Leaflet API
+- IP Geolocation API
+- IP API
 
 ### What I learned
 
-I learned more about fetching data from the internet, working with different APIs.
+I learned how to work with the following APIs Leaflet API, IP Geolocation API, IP API. I refreshed my knowledge on how to use async/await/promises and fetch method.

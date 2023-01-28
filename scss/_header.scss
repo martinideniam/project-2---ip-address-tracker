@@ -1,0 +1,145 @@
+header {
+  background: url("../img/pattern-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    position: relative;
+    min-height: 30vh;
+    margin: 0 2rem;
+    flex-basis: 1000px;
+    width: 90%;
+
+    z-index: 5000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .search {
+    margin-top: 2rem;
+    margin-bottom: 15rem;
+
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: 1fr 5rem;
+
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+    &__input {
+      padding: 1.5rem 1.7rem;
+      font-size: 1.5rem;
+      border-radius: 0;
+      border: none;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &__submit {
+      background: $black;
+      z-index: 5003;
+      transition: background 0.3s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background: $very-dark-gray;
+      }
+    }
+  }
+
+  .info {
+    width: 100%;
+
+    border-radius: 1.5rem;
+
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+
+    padding: 3rem 2rem;
+    background: $white;
+    color: $black;
+
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.115);
+
+    text-align: center;
+
+    &__title {
+      color: $dark-gray;
+      font-size: 1rem;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    &__data {
+      font-weight: 500;
+      margin-bottom: 3rem;
+
+      &--isp {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@include mobile-screen {
+  header {
+    .search {
+      max-width: 500px;
+    }
+  }
+}
+
+@include desktop-screen {
+  header {
+    .container {
+      min-height: 20vh;
+    }
+
+    .search {
+      margin-bottom: 10rem;
+    }
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+
+      &__container {
+        border-left: 0.5px solid $dark-gray;
+        padding-left: 2rem;
+        margin: 1rem;
+        word-wrap: break-word;
+
+        &--ip {
+          padding-left: 0rem;
+          border: none;
+        }
+      }
+
+      &__data {
+        margin-bottom: 0rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

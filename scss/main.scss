@@ -1,1 +1,13 @@
-@import "./config";
+@import "./config", "./responsive", "./header";
+
+#map {
+  min-height: 70vh;
+  width: 100vw;
+}
+
+@include desktop-screen {
+  #map {
+    min-height: 80vh;
+    width: 100vw;
+  }
+}

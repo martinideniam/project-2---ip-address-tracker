@@ -16,9 +16,21 @@ html {
 
 body {
   font-size: 1.8rem;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  background: #fff;
+  border: none;
+}
+
+.leaflet-top {
+  display: none;
 }
 
 // variables
 
 $very-dark-gray: hsl(0, 0%, 17%);
 $dark-gray: hsl(0, 0%, 59%);
+$white: #fff;
+$black: #000;

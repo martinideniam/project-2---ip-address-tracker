@@ -1,0 +1,27 @@
+{
+  "ip": "45.56.233.100",
+  "location": {
+    "country": "GB",
+    "region": "England",
+    "city": "Canterbury asdasda d",
+    "lat": 51.27904,
+    "lng": 1.07992,
+    "postalCode": "",
+    "timezone": "+00:00",
+    "geonameId": 2653877
+  },
+  "domains": [
+    "jin-ecenter.direct.quickconnect.to",
+    "lysacctv.direct.quickconnect.to",
+    "device-f2aa34bf-40cc-41da-a2f1-9e5568b069f6.remotewd.com",
+    "felishare.direct.quickconnect.to"
+  ],
+  "as": {
+    "asn": 203101,
+    "name": "NAVARINO-POP",
+    "route": "45.56.233.0/24",
+    "domain": "https://navarino.gr",
+    "type": ""
+  },
+  "isp": "Navarino Single Member S.A."
+}

@@ -1,11 +1,11 @@
 @mixin mobile-screen {
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 600px) {
     @content;
   }
 }
 
 @mixin desktop-screen {
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 800px) {
     @content;
   }
 }
