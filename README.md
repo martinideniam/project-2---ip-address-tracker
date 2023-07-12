@@ -1,29 +1,29 @@
-# Frontend Mentor - IP address tracker solution
+# IP address tracker web app
 
-This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Welcome to my IP address tracker web app repository. This project is a solution to the IP address tracker web app challenge on [Frontend Mentor](https://www.frontendmentor.io).
 
-## Table of contents
+## The Challenge
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+The challenge involved building an application that allowed users to:
 
-## Overview
+* View the optimal layout for each page depending on their device's screen size
+* See hover states for all interactive elements on the page
+* See their own IP address on the map on the initial page load
+* Search for any IP addresses or domains and see the key information and location
 
-### The challenge
+## Technologies Used
 
-Users should be able to:
+This project was built using the following technologies:
 
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
+- HTML
+- CSS
+- JS
 
-### Screenshot
+## Live
+
+You can check out the live version of the project here -> [https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html](https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html).
+
+## Screenshots
 
 Desktop view
 ![](./dist/img/design/desktop.png)
@@ -31,26 +31,16 @@ Desktop view
 Mobile view
 ![](./dist/img/design/mobile.png)
 
-### Links
+## Contact Me
 
-- [My solution URL](https://github.com/martinideniam/project-2-ip-address-tracker)
-- [My live site URL](https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html)
+For any inquiries or feedback, feel free to get in touch with me through:
 
-## My process
+- [GitHub](https://github.com/vladislav-gorovenko)
+- [LinkedIn](https://www.linkedin.com/in/vladislavgorovenko/)
+- [FrontendMentor](https://www.frontendmentor.io/profile/martinideniam/)
+- [Telegram](https://t.me/vlad_webdev_iam)
 
-### Built with
+## Feedback
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- BEM
-- SCSS
-- Leaflet API
-- IP Geolocation API
-- IP API
+If you have any feedback or suggestions, please open an issue here on [GitHub](https://github.com/vladislav-gorovenko/challenge-9-ip-address-tracker/issues).
 
-### What I learned
-
-I learned how to work with the following APIs Leaflet API, IP Geolocation API, IP API. I refreshed my knowledge on how to use async/await/promises and fetch method.
