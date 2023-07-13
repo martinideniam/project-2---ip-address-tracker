@@ -1,3 +1,7 @@
+## Live
+
+You can check out the live version of the project here -> [https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html](https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html).
+
 # IP address tracker web app
 
 Welcome to my IP address tracker web app repository. This project is a solution to the IP address tracker web app challenge on [Frontend Mentor](https://www.frontendmentor.io).
@@ -19,10 +23,6 @@ This project was built using the following technologies:
 - CSS
 - JS
 
-## Live
-
-You can check out the live version of the project here -> [https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html](https://martinideniam.github.io/project-2-ip-address-tracker/dist/index.html).
-
 ## Screenshots
 
 Desktop view
@@ -36,7 +36,7 @@ Mobile view
 For any inquiries or feedback, feel free to get in touch with me through:
 
 - [GitHub](https://github.com/vladislav-gorovenko)
-- [LinkedIn](https://www.linkedin.com/in/vladislavgorovenko/)
+- [LinkedIn](https://www.linkedin.com/in/vladislav-gorovenko-web/)
 - [FrontendMentor](https://www.frontendmentor.io/profile/martinideniam/)
 - [Telegram](https://t.me/vlad_webdev_iam)
 
